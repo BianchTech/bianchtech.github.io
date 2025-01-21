@@ -312,5 +312,26 @@
   "theme.tags.tagsPageTitle": {
     "message": "Marcadores",
     "description": "The title of the tag list page"
+  },
+  "Join a thriving open-source community driven by innovation and collaboration. Discover projects, share knowledge, and build impactful solutions together.": {
+    "message": "Participe de uma comunidade open source vibrante, impulsionada pela inovação e colaboração. Descubra projetos, compartilhe conhecimento e construa soluções impactantes juntos."
+  },
+  "Explore tools and solutions tailored for developers, designed to simplify workflows, enhance productivity, and address real-world challenges efficiently.": {
+    "message": "Explore ferramentas e soluções voltadas para desenvolvedores, projetadas para simplificar fluxos de trabalho, aumentar a produtividade e resolver desafios do mundo real com eficiência."
+  },
+  "Become a part of the innovation by contributing to our projects. From code contributions to documentation, your input makes a difference.": {
+    "message": "Faça parte da inovação contribuindo com nossos projetos. Desde contribuições de código até documentação, sua participação faz a diferença."
+  },
+  "Projects Docs": {
+    "message": "Documentação dos projetos"
+  },
+  "Open Source Community": {
+    "message": "Comunidade Open Source"
+  },
+  "Solutions for Developers": {
+    "message": "Soluções para desenvolvedores"
+  },
+  "Contribute to Projects": {
+    "message": "Contribua para os projetos"
   }
 }

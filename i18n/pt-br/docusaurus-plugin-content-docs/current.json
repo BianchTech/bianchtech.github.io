@@ -14,5 +14,9 @@
   "sidebar.tutorialSidebar.category.Tutorial - Extras": {
     "message": "Tutorial - Extras",
     "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Search Engine": {
+    "message": "Search Engine",
+    "description": "The label for category Search Engine in sidebar tutorialSidebar"
   }
 }

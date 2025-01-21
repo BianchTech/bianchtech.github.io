@@ -1,7 +1,8 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Translate, { translate } from '@docusaurus/Translate';
 
 type FeatureItem = {
   title: string;
@@ -11,38 +12,39 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: translate({ message: 'Open Source Community' }),
+    Svg: require('@site/static/img/undraw_chatting_5u5z.svg').default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <Translate>
+        Join a thriving open-source community driven by innovation and collaboration.
+        Discover projects, share knowledge, and build impactful solutions together.
+      </Translate>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: translate({ message: 'Solutions for Developers' }),
+    Svg: require('@site/static/img/undraw_programmer_raqr.svg').default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <Translate>
+        Explore tools and solutions tailored for developers, designed to simplify workflows,
+        enhance productivity, and address real-world challenges efficiently.
+      </Translate>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: translate({ message: 'Contribute to Projects' }),
+    Svg: require('@site/static/img/undraw_reading_c1xl.svg').default,
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+      <Translate>
+        Become a part of the innovation by contributing to our projects. From code
+        contributions to documentation, your input makes a difference.
+      </Translate>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

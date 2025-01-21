@@ -2,46 +2,33 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the **Projects Docs** section of **BianchTech**! 🚀
 
-## Getting Started
+At BianchTech, we are passionate about open-source development and strive to deliver high-quality, community-driven projects. This section serves as the central hub for documentation related to all our open-source projects.
 
-Get started by **creating a new site**.
+## 📚 What You'll Find Here
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **Project Introductions**: Learn about the innovative solutions we're developing and the problems they aim to solve.
+- **Usage Guides**: Step-by-step instructions on how to install, configure, and utilize our tools effectively.
+- **Contribution Guidelines**: Details on how to contribute to our projects, from reporting issues to submitting pull requests.
+- **Technical Documentation**: Dive deep into the inner workings of our projects, with explanations about architectures, algorithms, and implementations.
 
-### What you'll need
+## 🌐 Join the Community
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+We believe open-source thrives through collaboration. Whether you're a developer, researcher, or enthusiast, we invite you to explore, use, and contribute to our projects. Together, we can build something impactful.
 
-## Generate a new site
+### How to Get Started
 
-Generate a new Docusaurus site using the **classic template**.
+1. Browse through the available projects listed here.
+2. Read the usage guides to set up the tools.
+3. Check the contribution guidelines if you'd like to get involved.
 
-The classic template will automatically be added to your project after you run the command:
+## 🤝 Contribute and Collaborate
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Every contribution matters! From code to documentation, we value every effort to make our projects better. Follow the instructions in the "How to Contribute" section for each project to get started.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+---
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Feel free to explore, and don't hesitate to reach out to us for any questions or feedback. Let's build the future of open-source together! 🌟
