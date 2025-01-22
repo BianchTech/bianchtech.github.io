@@ -1,7 +1,7 @@
 ---
 slug: first-blog-post
 title: Bem-vindo ao Blog oficial do BianchTech!
-authors: [bianchtech, pedro]
+authors: [bianchtech, pedro, vitor]
 tags: [welcome]
 ---
 

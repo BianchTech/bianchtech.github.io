@@ -1,12 +1,22 @@
 pedro:
   name: Pedro Bianchini de Quadros
-  title: Developer @ Avotech
+  title: Maintainer @ BianchTech
   url: https://github.com/pedrobiqua
   image_url: https://github.com/pedrobiqua.png
   page: true
   socials:
     bluesky: pedrobiqua.bsky.social
     github: pedrobiqua
+    instagram: pedrobiqua.dev
+
+vitor:
+  name: Vitor Bianchini de Quadros
+  title: Member @ BianchTech
+  url: https://github.com/vitorbiqua
+  image_url: https://github.com/vitorbiqua.png
+  page: true
+  socials:
+    github: vitorbiqua
 
 bianchtech:
   name: BianchTech
