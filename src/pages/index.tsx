@@ -11,18 +11,25 @@ import Translate, { translate } from '@docusaurus/Translate';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
+    <header className="bg-gradient-to-br from-indigo-900 via-indigo-700 to-cyan-500 text-white py-24 text-center">
+      <div className="container mx-auto px-4">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4">
           {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        </h1>
+        <p className="text-xl md:text-2xl font-light mb-2">
+          {siteConfig.tagline}
+        </p>
+        <p className="text-lg text-gray-100 mb-6">
+          <Translate>Where innovation meets collaboration.</Translate>
+        </p>
+        <div>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            <Translate>Projects Docs</Translate>
+            className="bg-white text-indigo-700 hover:bg-gray-100 font-semibold px-6 py-3 rounded-md text-lg transition"
+            to="/docs/intro"
+          >
+            <Translate>Explore the Projects</Translate>
           </Link>
         </div>
       </div>

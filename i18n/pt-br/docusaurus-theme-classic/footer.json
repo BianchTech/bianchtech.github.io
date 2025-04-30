@@ -26,5 +26,9 @@
   "copyright": {
     "message": "Direitos Autorais © 2025 BianchTech, Inc. Desenvolvido com Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.title.Projects": {
+    "message": "Projetos",
+    "description": "The title of the footer links column with title=Projects in the footer"
   }
 }
