@@ -1,3 +1,5 @@
+import tailwindPlugin from "./plugins/tailwind-config.cjs";
+
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
@@ -24,6 +26,8 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  plugins: [tailwindPlugin],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -80,7 +84,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Projects',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
@@ -98,7 +102,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Projects',
           items: [
             {
               label: 'Projects Docs',
